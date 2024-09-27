@@ -311,10 +311,10 @@
                                                     <tr>
                                                         <th><b>S.No</b></th>
                                                         <th><b>Raised Date</b></th>
-                                                        <th><b>Dept Name</b></th>
-                                                        <th><b>Venue</b></th>
-                                                        <th><b>Complaint</b></th>
-                                                        <th><b>Picture</b></th>
+                                                        <th><b>Patient's Details</b></th>
+                                                        <th><b>Description</b></th>
+                                                        <th><b>Appointment Details</b></th>
+                                                        <th><b>Prescription</b></th>
                                                         <th><b>Action</b></th>
                                                     </tr>
                                                 </thead>
@@ -374,12 +374,12 @@
                                                                 <button type="button" class="btn btn-danger rejectcomplaint"
                                                                     id="rejectbutton" 
                                                                     data-toggle="modal"
-                                                                    data-target="#rejectModal">X</button>
+                                                                    data-target="#rejectModal">Cancel</button>
 
                                                                     <button type="button" class="btn btn-primary principalcomplaint"
                                                                     id="principalbutton"
                                                                     data-toggle="modal"
-                                                                    data-target="#principalModal">need approve</button>
+                                                                    data-target="#principalModal">Reshedule</button>
                                                             </td>
                                                         </tr>
                                                    
