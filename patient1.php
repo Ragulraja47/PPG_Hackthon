@@ -1,3 +1,11 @@
+<?php
+include("db.php");
+//query for 1st table input 
+//Faculty complaint table
+$sql1 = "SELECT * FROM patient_details";/*   */
+$result1 = mysqli_query($conn, $sql1);
+?>
+
 <!DOCTYPE html>
 <html dir="ltr" lang="en">
     <head>
